@@ -1,3 +1,5 @@
 name: raspimouse-ros
 
 distro: kinetic
+
+build: catkin_make
