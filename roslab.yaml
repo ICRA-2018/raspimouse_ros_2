@@ -1,5 +1,7 @@
 name: raspimouse-ros
 
-distro: kinetic
+base:
+  ubuntu: 16.04
+  ros: kinetic-ros-base
 
 build: catkin_make
